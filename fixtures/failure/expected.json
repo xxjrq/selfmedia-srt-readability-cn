@@ -1,0 +1,8 @@
+{
+  "status": "invalid",
+  "errors": [
+    {"cue": 1, "line": 2, "error": "结束时间超过视频实测总时长"}
+  ],
+  "over_budget": [],
+  "srt": null
+}

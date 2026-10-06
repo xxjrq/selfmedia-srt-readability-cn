@@ -1,0 +1,25 @@
+name: selfmedia-srt-readability-cn
+slug: selfmedia-srt-readability-cn
+display_name: SRT字幕断行修整
+description: 输入有效SRT、视频实测总时长、每行字数、最多行数及禁拆词表后，保持原句、编号和起止时间不变地输出易读断行SRT、阅读预算超限条目与格式错误定位，适合成片字幕交付前检查；缺少时长或行数限制会请求补充，时间异常不会猜测修正。
+version: 1.0.0
+repository: https://github.com/xxjrq/selfmedia-srt-readability-cn
+icon: icon-512.png
+license: MIT
+tags:
+  - srt
+  - subtitles
+  - chinese
+  - readability
+  - video-editing
+trigger_words:
+  - SRT断行
+  - 中文字幕换行
+  - 字幕阅读性
+  - 字幕时间校验
+interface:
+  display_name: SRT字幕断行修整
+  short_description: 保持时间和原句不变，修整中文字幕断行并定位超限与格式错误
+  icon_small: icon-512.png
+  icon_large: icon-512.png
+self_test: python3 scripts/self_test.py

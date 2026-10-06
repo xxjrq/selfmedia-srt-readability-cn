@@ -1,0 +1,8 @@
+{
+  "status": "invalid",
+  "errors": [
+    {"cue": 2, "line": 4, "error": "cue结构无效：下一条cue缺少空行分隔"}
+  ],
+  "over_budget": [],
+  "srt": null
+}

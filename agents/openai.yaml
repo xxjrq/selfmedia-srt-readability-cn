@@ -1,0 +1,8 @@
+interface:
+  display_name: "SRT字幕断行修整"
+  short_description: "保持时间和原句不变，修整中文字幕断行并定位超限与格式错误"
+  default_prompt: "使用 $selfmedia-srt-readability-cn：请提供SRT原文、视频实测总时长、每行最多字数、每条最多行数和禁拆词表；我将保持原句与时间不变地输出断行SRT、阅读预算超限项和错误定位。"
+  icon_small: "./icon-512.png"
+  icon_large: "./icon-512.png"
+policy:
+  allow_implicit_invocation: true
