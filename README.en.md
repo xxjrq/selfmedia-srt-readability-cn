@@ -17,9 +17,9 @@ This is for final subtitle display checks: up to 150 cues and a measured duratio
 Run locally with Python 3 and no external dependency:
 
 ```bash
-python3 scripts/srt_readability.py fixtures/success/input.srt \
+python3 scripts/srt_readability.py fixtures/success/input.txt \
   --total-seconds 10 --line-width 20 --max-lines 2 --forbid 人工智能
 python3 scripts/self_test.py
 ```
 
-See the [successful input](fixtures/success/input.srt), its [copyable SRT delivery](fixtures/success/expected.srt), and the [failure delivery](fixtures/failure/expected.json).
+See the [successful input](fixtures/success/input.txt), its [copyable SRT delivery](fixtures/success/expected.txt), and the [failure delivery](fixtures/failure/expected.json).

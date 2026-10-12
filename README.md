@@ -44,12 +44,12 @@ npx skills add xxjrq/selfmedia-srt-readability-cn
 无第三方依赖，Python 3 即可运行：
 
 ```bash
-python3 scripts/srt_readability.py fixtures/success/input.srt \
+python3 scripts/srt_readability.py fixtures/success/input.txt \
   --total-seconds 10 --line-width 20 --max-lines 2 --forbid 人工智能
 python3 scripts/self_test.py
 ```
 
-- [成功样例输入](fixtures/success/input.srt) 与 [可复制交付 SRT](fixtures/success/expected.srt)
-- [失败样例输入](fixtures/failure/input.srt) 与 [预期错误交付](fixtures/failure/expected.json)
+- [成功样例输入](fixtures/success/input.txt) 与 [可复制交付 SRT](fixtures/success/expected.txt)
+- [失败样例输入](fixtures/failure/input.txt) 与 [预期错误交付](fixtures/failure/expected.json)
 
 来源与许可证核对见 [SOURCES.md](SOURCES.md)。英文说明见 [README.en.md](README.en.md)。
